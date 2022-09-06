@@ -12,8 +12,8 @@ def handle_close(evt):
     cap.release()
 
 #2 프로그램 시작    
-cap = cv2.VideoCapture(0) # 0번 카메라
-
+#cap = cv2.VideoCapture(0) # 0번 카메라
+cap = cv2.VideoCapture('./data/vtest.avi')
 plt.ion() # 대화모드 설정
 fig = plt.figure(figsize=(10, 6)) 
 plt.axis('off')

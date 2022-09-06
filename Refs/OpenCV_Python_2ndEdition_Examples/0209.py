@@ -25,6 +25,7 @@ while(True):
         cv2.imshow('edges',edges)
 
         key = cv2.waitKey(25)
+        
         if key == 27: # Esc
                 break
 cv2.destroyAllWindows()
